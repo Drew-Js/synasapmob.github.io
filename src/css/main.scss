@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+
+:root{
+    --primary-color: #007af3;
+}
+body{
+    background: #F2F2F2;
+    margin: 0;
+    font-family: 'Klee One';
+}
+
+.navbar{
+    padding: 1em;
+
+    .logo{
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        font-size: 1.2em;
+        span{
+            color: var(--primary-color);
+        }
+    }
+    nav{
+        display: none;
+    }
+    .container{
+        display: flex;
+        place-content: space-between;
+    }
+    .mobilie-menu{
+        cursor: pointer;
+    }
+}
+
+a{
+    color: #444444;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+section{
+    padding: 5em 2em;
+}
+.hero{
+    text-align: center;
+    background-color: #3f3d3d21;
+}
+.left-col {
+
+    .subhead{
+        text-transform: uppercase;
+        font-weight: bold;
+        color: grey;
+        letter-spacing: .3em;
+    }
+    h1{
+        font-size: 2.5em;
+        line-height: 1.3em;
+        margin-top: .2em;
+    }
+    .primary-cta{
+        background: var(--primary-color);
+        color: white;
+        text-decoration: none;
+        padding: .6em 1.3em;
+        font-size: 1.3em;
+        border-radius: 5em;
+        font-weight: bold;
+        display: inline-block;
+
+    }
+    .watch-video-cta{
+        display: block;
+        margin-top: 1em;
+    }
+    img{
+        margin-right: .6em;
+    }
+}
+
+.hero-img{
+    width: 70%;
+    margin-top: 3em;
+    margin-left: 1em;
+}
+
+
+.leg{ //box bao chùm tổng
+    h1{
+        text-align: center;
+        font-size: .9em;
+        font-style:oblique;
+        margin-top: -50px;
+    }
+    .container{
+        background: #161b22c7;
+        height: 9em;
+        width: 26em;
+        overflow: hidden;
+        margin-left: -1.97em;
+        display: flex;
+
+        .footer_1{
+            color: white;
+            position: absolute;
+            align-self: flex-end;
+            white-space: pre-line;
+            font-size: .6em;
+            padding: .0.1em;
+                 
+            span{
+                display: block;
+                text-align: center;
+            }
+        }
+        img{
+            position: flex;
+            margin-bottom: 4.8125em;
+            width:  7em;
+            border-radius: 10em;
+        }
+        .person2{
+            background: #57525275;   
+            display: flex;
+            color: white;
+
+            .footer_2{
+                position: absolute;                
+                white-space: pre-line;
+                font-size: .6em;
+                align-self: flex-end;
+            }
+            span{
+                display: block;
+                text-align: center;
+            }
+        }
+        .person3{
+            display: flex;
+            background-image: url('/image/icon-person4.png');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            opacity: 0.8;
+            footer{
+                color: rgba(255, 255, 255, 0.954);
+                font-size: 0.9em;
+                font-weight: bold;
+                white-space: pre-line;
+                align-self:flex-end;
+                margin: auto;
+            }
+        }
+    }
+    .right{
+        background-color: red;
+        background: #161b22c7;
+        height: 9em;
+        width: 6em;
+        float: right;
+        margin-top: -9rem;
+        clear: right;
+        display: flex;
+    }
+}
