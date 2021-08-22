@@ -7,6 +7,7 @@ body{
     background: #F2F2F2;
     margin: 0;
     font-family: 'Klee One';
+    overflow: hidden;
 }
 
 .navbar{
@@ -146,6 +147,7 @@ section{
             background-size: cover;
             background-repeat: no-repeat;
             opacity: 0.8;
+            overflow: hidden;
             footer{
                 color: rgba(255, 255, 255, 0.954);
                 font-size: 0.9em;
@@ -155,15 +157,5 @@ section{
                 margin: auto;
             }
         }
-    }
-    .right{
-        background-color: red;
-        background: #161b22c7;
-        height: 9em;
-        width: 6em;
-        float: right;
-        margin-top: -9rem;
-        clear: right;
-        display: flex;
     }
 }
